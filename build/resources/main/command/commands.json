@@ -1,0 +1,25 @@
+{
+  "commands": [
+    {
+      "name": "stop",
+      "description": "Stop the card",
+      "help": "/stop to stop the card",
+      "alias": [
+        "interrupt", "kill", "end"
+      ]
+    },
+    {
+      "name": "say",
+      "description": "Say something in the terminal",
+      "help": "/say [text]"
+    },
+    {
+      "name": "help",
+      "description": "Show the command list",
+      "help": "/help (command)",
+      "alias": [
+        "?", "h"
+      ]
+    }
+  ]
+}
