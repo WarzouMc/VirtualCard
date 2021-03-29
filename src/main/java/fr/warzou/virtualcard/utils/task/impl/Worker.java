@@ -2,6 +2,9 @@ package fr.warzou.virtualcard.utils.task.impl;
 
 import java.util.concurrent.ThreadFactory;
 
+/**
+ * @author Redstonneur1256, Warzou
+ */
 class Worker {
 
     protected final Object lock;

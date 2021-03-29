@@ -9,6 +9,9 @@ import java.util.concurrent.ThreadFactory;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
+/**
+ * @author Redstonneur1256, Warzou
+ */
 public class QueuedThreadPool implements ThreadPool {
 
     private final ThreadFactory threadFactory;
@@ -74,7 +77,7 @@ public class QueuedThreadPool implements ThreadPool {
         return workerName;
     }
 
-    private static class ImplTask<T> extends AbstractTask<T> {
+    protected static class ImplTask<T> extends AbstractTask<T> {
 
         @Override
         protected void complete() {

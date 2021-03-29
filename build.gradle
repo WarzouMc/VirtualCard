@@ -39,3 +39,9 @@ dependencies {
 shadowJar {
     configurations = [project.configurations.compile]
 }
+
+task doc(type: Javadoc) {
+    classpath = configurations.compile
+    options.showAll()
+    source = sourceSets.main.allJava
+}

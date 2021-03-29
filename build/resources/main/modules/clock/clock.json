@@ -1,0 +1,10 @@
+{
+  "module_name": "clock",
+  "stream_type": 1,
+  "packets": {
+    "environment": {
+      "out.system.clock": "system.clock",
+      "out.system.clock.now": "system.clock.now"
+    }
+  }
+}

@@ -4,6 +4,9 @@ import fr.warzou.virtualcard.utils.task.Task;
 
 import java.util.function.Consumer;
 
+/**
+ * @author Redstonneur1256, Warzou
+ */
 abstract class AbstractTask<T> implements Task<T> {
 
     protected final Object lock = new Object();

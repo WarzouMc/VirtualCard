@@ -1,0 +1,8 @@
+{
+  "modules": [
+    {
+      "name": "clock",
+      "main": "clock"
+    }
+  ]
+}
