@@ -1,0 +1,21 @@
+{
+  "name": "Sorter",
+  "version": "1.0.0",
+  "authors": ["Warzou"],
+  "main": "fr.warzou.sorter.main.SorterPlugin",
+  "modules": {
+    "container.1": "modules/container1",
+    "container.2": "modules/container2",
+    "container.3": "modules/container3",
+    "pusher.1": "modules/pusher1",
+    "pusher.2": "modules/pusher2",
+    "pusher.3": "modules/pusher3"
+  },
+  "commands": {
+    "startsort": {
+      "description": "Start the sort",
+      "help": "/startsort (delay in tick)",
+      "alias": ["launchsort"]
+    }
+  }
+}

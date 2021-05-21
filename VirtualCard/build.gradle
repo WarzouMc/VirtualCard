@@ -1,0 +1,69 @@
+plugins {
+    id 'java'
+    id 'maven'
+    id 'com.github.johnrengelman.shadow' version "6.1.0"
+}
+
+group 'fr.warzou'
+version '0.0.2'
+
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'maven'
+
+    project.targetCompatibility = 1.15
+    project.sourceCompatibility = 1.15
+
+    compileJava {
+        targetCompatibility = 1.8
+        sourceCompatibility = 1.8
+    }
+
+    jar {
+        manifest {
+            attributes 'Main-Class': 'fr.warzou.virtualcard.api.starter.Main'
+        }
+    }
+
+    repositories {
+        mavenCentral()
+        mavenLocal()
+    }
+}
+
+dependencies {
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.8.6'
+    compile group: 'org.jetbrains', name: 'annotations', version: '20.1.0'
+    compile group: 'jline', name: 'jline', version: '2.12.1'
+}
+
+task doc(type: Javadoc) {
+    classpath = configurations.compile
+    options.showAll()
+    ((StandardJavadocDocletOptions) options).links("https://docs.oracle.com/en/java/javase/15/docs/api",
+                                                   "https://javadoc.io/doc/jline/jline/2.12.1",
+                                                   "https://javadoc.io/doc/com.google.code.gson/gson/2.8.6",
+                                                   "https://javadoc.io/doc/org.jetbrains/annotations/20.1.0",
+                                                   "https://javadoc.io/doc/org.fusesource.jansi/jansi-native/1.5",
+                                                   "https://javadoc.io/doc/org.fusesource.jansi/jansi/1.11")
+    ((StandardJavadocDocletOptions) options).version(true)
+    ((StandardJavadocDocletOptions) options).author(true)
+    source = sourceSets.main.allJava
+}
+
+task javadocJar(type: Jar, dependsOn: doc) {
+    classifier("javadoc")
+    from doc.destinationDir
+}
+
+task sourcesJar(type: Jar) {
+    classifier("sources")
+    from sourceSets.main.allSource
+}
+
+shadowJar {
+    doc
+    configurations = [project.configurations.compile]
+    shadowJar.finalizedBy javadocJar
+    shadowJar.finalizedBy sourcesJar
+}

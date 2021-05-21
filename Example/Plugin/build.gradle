@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+    id 'maven'
+    id 'com.github.johnrengelman.shadow' version "6.1.0"
+}
+
+group 'fr.warzou'
+version '1.0.0'
+
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'maven'
+
+    project.targetCompatibility = 1.8
+    project.sourceCompatibility = 1.8
+
+    compileJava {
+        targetCompatibility = 1.8
+        sourceCompatibility = 1.8
+    }
+
+    repositories {
+        mavenCentral()
+        mavenLocal()
+    }
+}
+
+dependencies {
+    implementation files('libs/VirtualCard-0.0.2-all.jar')
+    compile group: 'org.jetbrains', name: 'annotations', version: '20.1.0'
+}
+
+shadowJar {
+    configurations = [project.configurations.compile]
+}

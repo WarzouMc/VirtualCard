@@ -1,0 +1,8 @@
+{
+  "section_name": "content",
+  "inject_from": "container",
+  "inject_to": null,
+  "content": [],
+  "empty_slot": 200,
+  "capacity": 200
+}

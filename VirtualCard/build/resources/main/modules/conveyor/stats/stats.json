@@ -1,0 +1,14 @@
+{
+  "section_name": "stats",
+  "update_ticks": 10,
+  "item_source": "dropper",
+  "sort": {
+    "section_name": "sort.system",
+    "sensor": "captor",
+    "count": 3,
+    "with_index": [1, 2, 3],
+    "format": ["pusher", "container"]
+  },
+  "length": 100,
+  "tail_end": "container"
+}

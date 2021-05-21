@@ -1,0 +1,16 @@
+{
+  "module_name": "pusher.2",
+  "system_type": 2,
+  "packets": {
+    "in": {
+      "./modules/pusher2/push.json": "push"
+    },
+    "out": {
+      "./modules/pusher2/push.json": "push",
+      "stats": {
+        "section_name": "stats",
+        "link": "conveyor"
+      }
+    }
+  }
+}

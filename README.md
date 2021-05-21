@@ -1,67 +1,11 @@
-# VirtualCard
+[![Discord](https://img.shields.io/discord/577196219252604942.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/5xQPmD2)
+[![wakatime](https://wakatime.com/badge/github/WarzouMc/VirtualCard.svg)](https://wakatime.com/badge/github/WarzouMc/VirtualCard)
 
-## Commands
+# Main project
+https://github.com/WarzouMc/VirtualCard/tree/main/VirtualCard
 
-* Json command format (not implemented yet for custom command) :
+# Plugin example
+https://github.com/WarzouMc/VirtualCard/tree/main/Example/Plugin
 
-```json
-{
-	"commands": [
-		{
-			"name": "first_command", 
-			"description": "command description",
-			"help": "help message for this command",
-			"alias": ["alias1", "alias2"]
-		},
-		{
-			"name": "second_command",
-			"description": "second command description",
-			"help": "help message for this second command",
-			"alias": ["second_alias1", "second_alias2"]	
-		}
-
-	]
-}
-```
-
-Attributes "name" and "description" are obligatory.
-If a name as already take you cannot use it a second time in another name or in alias.
-
-## Module list
-
-```json
-{
-  "modules": [
-    {
-      "name": "name1",
-      "main": "module main file"
-    },
-    {
-    	"name": "name2",
-    	"main": "module main file"
-    }
-  ]
-}
-```
-
-All sections are obligatory.
-
-
-## Main module file
-
-
-This is too recent to be explain and is not clearly defined so this is just a concrete application.
-```json
-{
-  "module_name": "clock",
-  "stream_type": 1,
-  "packets": {
-    "environment": {
-      "out.system.clock": "system.clock",
-      "out.system.clock.now": "system.clock.now"
-    }
-  }
-}
-```
-
-No rules currently.
+# Environment example
+https://github.com/WarzouMc/VirtualCard/tree/main/Example/Environment

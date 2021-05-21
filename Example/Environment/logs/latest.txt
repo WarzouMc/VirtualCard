@@ -1,0 +1,1977 @@
+[21-05-21 23:30:53 card] [INFO] Launch...
+[21-05-21 23:30:53 card] [INFO] Post process start
+[21-05-21 23:30:53 card] [INFO] Load current environment files list !
+[21-05-21 23:30:53 card] [INFO] Load logger files!
+[21-05-21 23:30:53 card] [INFO] Check for create file 'logs'
+[21-05-21 23:30:53 card] [INFO] Check file existence !
+[21-05-21 23:30:53 card] [INFO] Success file 'logs'creation
+[21-05-21 23:30:53 card] [INFO] Logger initialization !
+[21-05-21 23:30:53 card] [INFO] Logger date format : 'yyyy-MM-dd-HH-mm-ss'
+[21-05-21 23:30:53 card] [INFO] Create log file
+[21-05-21 23:30:53 card] [INFO] [42mStart log dispatcher !
+[21-05-21 23:30:53 card] [INFO] [42mLogger file load success
+[21-05-21 23:30:53 card] [INFO] Check for create file 'modules'
+[21-05-21 23:30:53 card] [INFO] Check file existence !
+[21-05-21 23:30:53 card] [INFO] Success file 'modules'creation
+[21-05-21 23:30:53 card] [INFO] Modules file initialization
+[21-05-21 23:30:53 card] [INFO] Load jar resources !
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : 
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : captor/
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : captor/captor.json
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : captor/capturing.json
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : clock/
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : clock/clock.json
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : container/
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : container/container.json
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : container/content/
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : container/content/content.json
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : conveyor/
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : conveyor/conveyor.json
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : conveyor/conveyorview.json
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : conveyor/stats/
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : conveyor/stats/stats.json
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : dropper/
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : dropper/dropper.json
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : dropper/queue/
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : dropper/queue/queue.json
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : dropper/stats/
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : dropper/stats/stats.json
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : pusher/
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : pusher/push.json
+[21-05-21 23:30:53 card] [INFO] [42mModule file detection : pusher/pusher.json
+[21-05-21 23:30:53 card] [INFO] [42mModule file load success
+[21-05-21 23:30:53 card] [INFO] Check for create file 'plugins'
+[21-05-21 23:30:53 card] [INFO] Check file existence !
+[21-05-21 23:30:53 card] [INFO] Success file 'plugins'creation
+[21-05-21 23:30:53 card] [INFO] Start plugins loading !
+[21-05-21 23:30:54 card] [INFO] [42mJar detection : VirtualCardSorterPlugin-1.0.0-all.jar
+[21-05-21 23:30:54 card] [INFO] [43mTry to load plugin jar 'VirtualCardSorterPlugin-1.0.0-all.jar'.
+[21-05-21 23:30:54 card] [INFO] Try to find 'plugin.json' file in the jar file.
+[21-05-21 23:30:54 card] [INFO] Load plugin information
+[21-05-21 23:30:54 card] [INFO] Load name
+[21-05-21 23:30:54 card] [INFO] Load version
+[21-05-21 23:30:54 card] [INFO] Load authors
+[21-05-21 23:30:54 card] [INFO] Load main class path
+[21-05-21 23:30:54 card] [INFO] Load modules...
+[21-05-21 23:30:54 card] [INFO] Check module 'container.1'
+[21-05-21 23:30:54 card] [INFO] [42mSuccess module load
+[21-05-21 23:30:54 card] [INFO] Check module 'container.2'
+[21-05-21 23:30:54 card] [INFO] [42mSuccess module load
+[21-05-21 23:30:54 card] [INFO] Check module 'container.3'
+[21-05-21 23:30:54 card] [INFO] [42mSuccess module load
+[21-05-21 23:30:54 card] [INFO] Check module 'pusher.1'
+[21-05-21 23:30:54 card] [INFO] [42mSuccess module load
+[21-05-21 23:30:54 card] [INFO] Check module 'pusher.2'
+[21-05-21 23:30:54 card] [INFO] [42mSuccess module load
+[21-05-21 23:30:54 card] [INFO] Check module 'pusher.3'
+[21-05-21 23:30:54 card] [INFO] [42mSuccess module load
+[21-05-21 23:30:54 card] [INFO] Load commands...
+[21-05-21 23:30:54 card] [INFO] Check for command 'startsort'
+[21-05-21 23:30:54 card] [INFO] [42mSuccess command load
+[21-05-21 23:30:54 card] [INFO] Main class loader for plugin 'Sorter'
+[21-05-21 23:30:54 card] [INFO] Init plugin 'Sorter'
+[21-05-21 23:30:54 card] [INFO] [42mPlugin 'Sorter' is now loaded !
+[21-05-21 23:30:54 card] [INFO] [32mLoaded : plugin name : Sorter, version : 1.0.0, authors : [Warzou], main : fr.warzou.sorter.main.SorterPlugin !
+[21-05-21 23:30:54 card] [INFO] [42mPlugin load finish
+[21-05-21 23:30:54 card] [INFO] [42mPlease wait 2 seconds...
+[21-05-21 23:30:56 card] [INFO] Finish card init (modules, commands, environment, tick task)...
+[21-05-21 23:30:56 card] [INFO] [36mStart card
+[21-05-21 23:30:56 card] [INFO] Start all plugins !
+[21-05-21 23:30:56 card] [INFO] [34m##################
+[21-05-21 23:30:59 card] [INFO] [42mSort is init and started !
+[21-05-21 23:30:59 card] [INFO] Sort array of 500 items :
+[21-05-21 23:30:59 card] [INFO] [34m[391, 44, 122, 461, 124, 328, 680, 183, 168, 252, 695, 437, 133, 449, 33, 217, 990, 393, 970, 210, 723, 784, 945, 141, 195, 429, 230, 639, 934, 841, 91, 875, 93, 789, 956, 325, 58, 988, 216, 5, 266, 593, 669, 259, 725, 962, 871, 175, 240, 651, 736, 684, 196, 751, 506, 965, 662, 911, 987, 25, 434, 322, 777, 980, 442, 96, 801, 768, 137, 236, 210, 59, 692, 830, 59, 7, 399, 152, 545, 716, 207, 900, 188, 831, 604, 639, 201, 687, 710, 86, 866, 796, 250, 978, 764, 682, 699, 726, 634, 669, 119, 516, 107, 602, 430, 640, 447, 673, 628, 373, 125, 753, 50, 437, 989, 65, 944, 890, 70, 845, 601, 223, 313, 965, 439, 777, 359, 158, 242, 637, 292, 503, 633, 571, 552, 766, 232, 512, 291, 28, 462, 29, 403, 227, 134, 248, 328, 604, 687, 243, 551, 221, 312, 410, 728, 238, 82, 141, 546, 544, 963, 382, 816, 78, 966, 860, 831, 901, 946, 607, 731, 288, 654, 564, 909, 503, 403, 38, 5, 1, 676, 56, 387, 845, 395, 780, 391, 691, 15, 624, 337, 915, 986, 851, 665, 570, 113, 39, 414, 62, 784, 279, 563, 499, 964, 209, 353, 649, 77, 162, 713, 866, 673, 749, 906, 737, 291, 787, 906, 601, 469, 994, 278, 901, 235, 791, 371, 835, 719, 184, 28, 684, 425, 668, 819, 823, 879, 103, 944, 972, 239, 201, 805, 624, 463, 852, 792, 252, 806, 769, 189, 5, 637, 690, 219, 503, 233, 490, 780, 47, 440, 559, 36, 429, 280, 248, 357, 958, 504, 291, 976, 486, 334, 691, 927, 582, 895, 972, 420, 528, 511, 920, 495, 189, 123, 891, 970, 673, 595, 787, 418, 628, 276, 828, 360, 349, 488, 904, 504, 594, 999, 683, 484, 429, 544, 689, 46, 923, 673, 244, 666, 928, 580, 526, 957, 51, 460, 328, 661, 150, 173, 55, 853, 576, 768, 364, 64, 998, 610, 393, 944, 186, 357, 395, 892, 858, 350, 287, 152, 394, 479, 430, 467, 300, 172, 171, 841, 473, 880, 139, 218, 171, 938, 72, 328, 414, 174, 530, 130, 952, 177, 480, 830, 35, 508, 848, 360, 204, 611, 792, 819, 262, 909, 405, 691, 518, 82, 435, 4, 271, 531, 429, 744, 288, 809, 2, 388, 727, 55, 224, 675, 951, 181, 349, 129, 172, 863, 734, 949, 14, 971, 485, 319, 729, 432, 251, 476, 613, 120, 461, 508, 377, 790, 42, 472, 230, 507, 334, 678, 175, 125, 292, 35, 561, 165, 445, 881, 133, 817, 86, 679, 332, 423, 553, 170, 516, 904, 175, 851, 413, 495, 177, 286, 606, 705, 655, 41, 111, 313, 714, 787, 877, 205, 809, 790, 787, 303, 510, 761, 874, 949, 377, 547, 687, 840, 465, 673, 574, 482, 727, 277, 173, 752, 735, 542, 510, 982, 498, 210, 603, 79, 788, 793, 878, 612, 225, 364, 481, 544, 178, 285, 585, 715, 250, 316, 698, 818, 257, 699, 984]
+[21-05-21 23:30:59 card] [INFO] Captor parameters : 
+[21-05-21 23:30:59 card] [INFO] Constants : [250.0, 500.0, 750.0]
+[21-05-21 23:30:59 card] [INFO] Comparator : MIN
+[21-05-21 23:30:59 card] [INFO] ######################################
+[21-05-21 23:30:59 card] [INFO] Sort predictions : 
+[21-05-21 23:30:59 card] [INFO] Time : 6000 ticks
+[21-05-21 23:30:59 card] [INFO] ######################################
+[21-05-21 23:31:04 card] [INFO] [42mCaptor has capt : 391.0, Result -> 1
+[21-05-21 23:31:05 card] [INFO] [42mCaptor has capt : 44.0, Result -> 0
+[21-05-21 23:31:05 card] [INFO] [42mCaptor has capt : 122.0, Result -> 0
+[21-05-21 23:31:06 card] [INFO] [42mCaptor has capt : 461.0, Result -> 1
+[21-05-21 23:31:06 card] [INFO] [42mCaptor has capt : 124.0, Result -> 0
+[21-05-21 23:31:07 card] [INFO] [42mCaptor has capt : 328.0, Result -> 1
+[21-05-21 23:31:07 card] [INFO] [42mCaptor has capt : 680.0, Result -> 2
+[21-05-21 23:31:08 card] [INFO] [42mCaptor has capt : 183.0, Result -> 0
+[21-05-21 23:31:08 card] [INFO] [42mCaptor has capt : 168.0, Result -> 0
+[21-05-21 23:31:09 card] [INFO] [42mCaptor has capt : 252.0, Result -> 1
+[21-05-21 23:31:09 card] [INFO] [42mCaptor has capt : 695.0, Result -> 2
+[21-05-21 23:31:11 card] [INFO] [42mCaptor has capt : 437.0, Result -> 1
+[21-05-21 23:31:11 card] [INFO] [42mCaptor has capt : 133.0, Result -> 0
+[21-05-21 23:31:12 card] [INFO] [42mCaptor has capt : 449.0, Result -> 1
+[21-05-21 23:31:12 card] [INFO] [42mCaptor has capt : 33.0, Result -> 0
+[21-05-21 23:31:13 card] [INFO] [42mCaptor has capt : 217.0, Result -> 0
+[21-05-21 23:31:14 card] [INFO] [42mCaptor has capt : 393.0, Result -> 1
+[21-05-21 23:31:15 card] [INFO] [42mCaptor has capt : 210.0, Result -> 0
+[21-05-21 23:31:15 card] [INFO] [42mCaptor has capt : 723.0, Result -> 2
+[21-05-21 23:31:16 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 44.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:16 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 122.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:17 card] [INFO] [42mCaptor has capt : 141.0, Result -> 0
+[21-05-21 23:31:17 card] [INFO] [42mCaptor has capt : 195.0, Result -> 0
+[21-05-21 23:31:17 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 124.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:18 card] [INFO] [42mCaptor has capt : 429.0, Result -> 1
+[21-05-21 23:31:18 card] [INFO] [42mCaptor has capt : 230.0, Result -> 0
+[21-05-21 23:31:19 card] [INFO] [42mCaptor has capt : 639.0, Result -> 2
+[21-05-21 23:31:19 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 183.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:19 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 168.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:20 card] [INFO] [42mCaptor has capt : 91.0, Result -> 0
+[21-05-21 23:31:20 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 391.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:31:21 card] [INFO] [42mCaptor has capt : 93.0, Result -> 0
+[21-05-21 23:31:21 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 133.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:22 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 461.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:31:22 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 33.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:23 card] [INFO] [42mCaptor has capt : 325.0, Result -> 1
+[21-05-21 23:31:23 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 217.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:23 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 328.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:31:23 card] [INFO] [42mCaptor has capt : 58.0, Result -> 0
+[21-05-21 23:31:24 card] [INFO] [42mCaptor has capt : 216.0, Result -> 0
+[21-05-21 23:31:25 card] [INFO] [42mCaptor has capt : 5.0, Result -> 0
+[21-05-21 23:31:25 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 210.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:25 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 252.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:31:25 card] [INFO] [42mCaptor has capt : 266.0, Result -> 1
+[21-05-21 23:31:26 card] [INFO] [42mCaptor has capt : 593.0, Result -> 2
+[21-05-21 23:31:26 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 437.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:31:26 card] [INFO] [42mCaptor has capt : 669.0, Result -> 2
+[21-05-21 23:31:27 card] [INFO] [42mCaptor has capt : 259.0, Result -> 1
+[21-05-21 23:31:27 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 141.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:27 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 449.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:31:27 card] [INFO] [42mCaptor has capt : 725.0, Result -> 2
+[21-05-21 23:31:27 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 195.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:28 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 230.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:28 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 680.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:31:29 card] [INFO] [42mCaptor has capt : 175.0, Result -> 0
+[21-05-21 23:31:29 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 393.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:31:29 card] [INFO] [42mCaptor has capt : 240.0, Result -> 0
+[21-05-21 23:31:30 card] [INFO] [42mCaptor has capt : 651.0, Result -> 2
+[21-05-21 23:31:30 card] [INFO] [42mCaptor has capt : 736.0, Result -> 2
+[21-05-21 23:31:30 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 91.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:30 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 695.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:31:31 card] [INFO] [42mCaptor has capt : 684.0, Result -> 2
+[21-05-21 23:31:31 card] [INFO] [42mCaptor has capt : 196.0, Result -> 0
+[21-05-21 23:31:31 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 93.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:32 card] [INFO] [42mCaptor has capt : 506.0, Result -> 2
+[21-05-21 23:31:33 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 429.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:31:33 card] [INFO] [42mCaptor has capt : 662.0, Result -> 2
+[21-05-21 23:31:33 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 58.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:34 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 216.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:35 card] [INFO] [42mCaptor has capt : 25.0, Result -> 0
+[21-05-21 23:31:35 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 5.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:35 card] [INFO] [42mCaptor has capt : 434.0, Result -> 1
+[21-05-21 23:31:35 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 723.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:31:36 card] [INFO] [42mCaptor has capt : 322.0, Result -> 1
+[21-05-21 23:31:37 card] [INFO] [42mCaptor has capt : 442.0, Result -> 1
+[21-05-21 23:31:38 card] [INFO] [42mCaptor has capt : 96.0, Result -> 0
+[21-05-21 23:31:38 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 325.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:31:39 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 175.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:39 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 639.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:31:39 card] [INFO] [42mCaptor has capt : 137.0, Result -> 0
+[21-05-21 23:31:39 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 240.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:40 card] [INFO] [42mCaptor has capt : 236.0, Result -> 0
+[21-05-21 23:31:40 card] [INFO] [42mCaptor has capt : 210.0, Result -> 0
+[21-05-21 23:31:40 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 266.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:31:41 card] [INFO] [42mCaptor has capt : 59.0, Result -> 0
+[21-05-21 23:31:41 card] [INFO] [42mCaptor has capt : 692.0, Result -> 2
+[21-05-21 23:31:41 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 196.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:42 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 259.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:31:42 card] [INFO] [42mCaptor has capt : 59.0, Result -> 0
+[21-05-21 23:31:43 card] [INFO] [42mCaptor has capt : 7.0, Result -> 0
+[21-05-21 23:31:43 card] [INFO] [42mCaptor has capt : 399.0, Result -> 1
+[21-05-21 23:31:44 card] [INFO] [42mCaptor has capt : 152.0, Result -> 0
+[21-05-21 23:31:44 card] [INFO] [42mCaptor has capt : 545.0, Result -> 2
+[21-05-21 23:31:45 card] [INFO] [42mCaptor has capt : 716.0, Result -> 2
+[21-05-21 23:31:45 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 25.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:45 card] [INFO] [42mCaptor has capt : 207.0, Result -> 0
+[21-05-21 23:31:46 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 593.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:31:46 card] [INFO] [42mCaptor has capt : 188.0, Result -> 0
+[21-05-21 23:31:46 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 669.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:31:47 card] [INFO] [42mCaptor has capt : 604.0, Result -> 2
+[21-05-21 23:31:47 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 725.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:31:48 card] [INFO] [42mCaptor has capt : 639.0, Result -> 2
+[21-05-21 23:31:48 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 96.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:48 card] [INFO] [42mCaptor has capt : 201.0, Result -> 0
+[21-05-21 23:31:49 card] [INFO] [42mCaptor has capt : 687.0, Result -> 2
+[21-05-21 23:31:49 card] [INFO] [42mCaptor has capt : 710.0, Result -> 2
+[21-05-21 23:31:49 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 137.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:50 card] [INFO] [42mCaptor has capt : 86.0, Result -> 0
+[21-05-21 23:31:50 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 236.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:50 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 651.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:31:50 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 210.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:50 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 434.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:31:50 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 736.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:31:51 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 59.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:51 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 322.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:31:51 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 684.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:31:51 card] [INFO] [42mCaptor has capt : 250.0, Result -> 0
+[21-05-21 23:31:52 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 59.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:52 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 442.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:31:52 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 506.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:31:53 card] [INFO] [42mCaptor has capt : 682.0, Result -> 2
+[21-05-21 23:31:53 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 7.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:53 card] [INFO] [42mCaptor has capt : 699.0, Result -> 2
+[21-05-21 23:31:53 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 662.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:31:54 card] [INFO] [42mCaptor has capt : 726.0, Result -> 2
+[21-05-21 23:31:54 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 152.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:54 card] [INFO] [42mCaptor has capt : 634.0, Result -> 2
+[21-05-21 23:31:55 card] [INFO] [42mCaptor has capt : 669.0, Result -> 2
+[21-05-21 23:31:55 card] [INFO] [42mCaptor has capt : 119.0, Result -> 0
+[21-05-21 23:31:55 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 207.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:56 card] [INFO] [42mCaptor has capt : 516.0, Result -> 2
+[21-05-21 23:31:56 card] [INFO] [42mCaptor has capt : 107.0, Result -> 0
+[21-05-21 23:31:56 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 188.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:57 card] [INFO] [42mCaptor has capt : 602.0, Result -> 2
+[21-05-21 23:31:57 card] [INFO] [42mCaptor has capt : 430.0, Result -> 1
+[21-05-21 23:31:58 card] [INFO] [42mCaptor has capt : 640.0, Result -> 2
+[21-05-21 23:31:58 card] [INFO] [42mCaptor has capt : 447.0, Result -> 1
+[21-05-21 23:31:58 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 201.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:31:58 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 399.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:31:59 card] [INFO] [42mCaptor has capt : 673.0, Result -> 2
+[21-05-21 23:31:59 card] [INFO] [42mCaptor has capt : 628.0, Result -> 2
+[21-05-21 23:32:00 card] [INFO] [42mCaptor has capt : 373.0, Result -> 1
+[21-05-21 23:32:00 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 86.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:00 card] [INFO] [42mCaptor has capt : 125.0, Result -> 0
+[21-05-21 23:32:01 card] [INFO] [42mCaptor has capt : 50.0, Result -> 0
+[21-05-21 23:32:01 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 250.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:01 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 692.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:02 card] [INFO] [42mCaptor has capt : 437.0, Result -> 1
+[21-05-21 23:32:03 card] [INFO] [42mCaptor has capt : 65.0, Result -> 0
+[21-05-21 23:32:04 card] [INFO] [42mCaptor has capt : 70.0, Result -> 0
+[21-05-21 23:32:04 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 545.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:05 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 716.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:05 card] [INFO] [42mCaptor has capt : 601.0, Result -> 2
+[21-05-21 23:32:05 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 119.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:06 card] [INFO] [42mCaptor has capt : 223.0, Result -> 0
+[21-05-21 23:32:06 card] [INFO] [42mCaptor has capt : 313.0, Result -> 1
+[21-05-21 23:32:06 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 107.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:07 card] [INFO] [42mCaptor has capt : 439.0, Result -> 1
+[21-05-21 23:32:07 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 604.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:08 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 639.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:08 card] [INFO] [42mCaptor has capt : 359.0, Result -> 1
+[21-05-21 23:32:09 card] [INFO] [42mCaptor has capt : 158.0, Result -> 0
+[21-05-21 23:32:09 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 687.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:09 card] [INFO] [42mCaptor has capt : 242.0, Result -> 0
+[21-05-21 23:32:09 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 710.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:10 card] [INFO] [42mCaptor has capt : 637.0, Result -> 2
+[21-05-21 23:32:10 card] [INFO] [42mCaptor has capt : 292.0, Result -> 1
+[21-05-21 23:32:10 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 125.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:11 card] [INFO] [42mCaptor has capt : 503.0, Result -> 2
+[21-05-21 23:32:11 card] [INFO] [42mCaptor has capt : 633.0, Result -> 2
+[21-05-21 23:32:11 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 50.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:12 card] [INFO] [42mCaptor has capt : 571.0, Result -> 2
+[21-05-21 23:32:12 card] [INFO] [42mCaptor has capt : 552.0, Result -> 2
+[21-05-21 23:32:12 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 430.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:32:13 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 65.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:13 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 682.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:13 card] [INFO] [42mCaptor has capt : 232.0, Result -> 0
+[21-05-21 23:32:13 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 447.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:32:13 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 699.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:14 card] [INFO] [42mCaptor has capt : 512.0, Result -> 2
+[21-05-21 23:32:14 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 726.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:14 card] [INFO] [42mCaptor has capt : 291.0, Result -> 1
+[21-05-21 23:32:14 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 70.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:14 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 634.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:15 card] [INFO] [42mCaptor has capt : 28.0, Result -> 0
+[21-05-21 23:32:15 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 373.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:32:15 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 669.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:15 card] [INFO] [42mCaptor has capt : 462.0, Result -> 1
+[21-05-21 23:32:16 card] [INFO] [42mCaptor has capt : 29.0, Result -> 0
+[21-05-21 23:32:16 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 223.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:16 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 516.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:16 card] [INFO] [42mCaptor has capt : 403.0, Result -> 1
+[21-05-21 23:32:17 card] [INFO] [42mCaptor has capt : 227.0, Result -> 0
+[21-05-21 23:32:17 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 437.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:32:17 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 602.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:17 card] [INFO] [42mCaptor has capt : 134.0, Result -> 0
+[21-05-21 23:32:18 card] [INFO] [42mCaptor has capt : 248.0, Result -> 0
+[21-05-21 23:32:18 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 640.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:18 card] [INFO] [42mCaptor has capt : 328.0, Result -> 1
+[21-05-21 23:32:19 card] [INFO] [42mCaptor has capt : 604.0, Result -> 2
+[21-05-21 23:32:19 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 158.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:19 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 673.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:19 card] [INFO] [42mCaptor has capt : 687.0, Result -> 2
+[21-05-21 23:32:19 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 242.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:19 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 628.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:20 card] [INFO] [42mCaptor has capt : 243.0, Result -> 0
+[21-05-21 23:32:20 card] [INFO] [42mCaptor has capt : 551.0, Result -> 2
+[21-05-21 23:32:21 card] [INFO] [42mCaptor has capt : 221.0, Result -> 0
+[21-05-21 23:32:21 card] [INFO] [42mCaptor has capt : 312.0, Result -> 1
+[21-05-21 23:32:21 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 313.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:32:22 card] [INFO] [42mCaptor has capt : 410.0, Result -> 1
+[21-05-21 23:32:22 card] [INFO] [42mCaptor has capt : 728.0, Result -> 2
+[21-05-21 23:32:22 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 439.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:32:23 card] [INFO] [42mCaptor has capt : 238.0, Result -> 0
+[21-05-21 23:32:23 card] [INFO] [42mCaptor has capt : 82.0, Result -> 0
+[21-05-21 23:32:23 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 232.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:23 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 359.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:32:24 card] [INFO] [42mCaptor has capt : 141.0, Result -> 0
+[21-05-21 23:32:24 card] [INFO] [42mCaptor has capt : 546.0, Result -> 2
+[21-05-21 23:32:25 card] [INFO] [42mCaptor has capt : 544.0, Result -> 2
+[21-05-21 23:32:25 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 28.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:25 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 292.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:32:25 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 601.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:26 card] [INFO] [42mCaptor has capt : 382.0, Result -> 1
+[21-05-21 23:32:26 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 29.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:27 card] [INFO] [42mCaptor has capt : 78.0, Result -> 0
+[21-05-21 23:32:27 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 227.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:27 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 134.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:28 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 248.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:29 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 291.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:32:30 card] [INFO] [42mCaptor has capt : 607.0, Result -> 2
+[21-05-21 23:32:30 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 243.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:30 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 637.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:30 card] [INFO] [42mCaptor has capt : 731.0, Result -> 2
+[21-05-21 23:32:30 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 462.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:32:31 card] [INFO] [42mCaptor has capt : 288.0, Result -> 1
+[21-05-21 23:32:31 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 221.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:31 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 503.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:31 card] [INFO] [42mCaptor has capt : 654.0, Result -> 2
+[21-05-21 23:32:31 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 403.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:32:31 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 633.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:32 card] [INFO] [42mCaptor has capt : 564.0, Result -> 2
+[21-05-21 23:32:32 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 571.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:32 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 552.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:33 card] [INFO] [42mCaptor has capt : 503.0, Result -> 2
+[21-05-21 23:32:33 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 238.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:33 card] [INFO] [42mCaptor has capt : 403.0, Result -> 1
+[21-05-21 23:32:33 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 82.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:33 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 328.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:32:34 card] [INFO] [42mCaptor has capt : 38.0, Result -> 0
+[21-05-21 23:32:34 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 141.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:34 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 512.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:34 card] [INFO] [42mCaptor has capt : 5.0, Result -> 0
+[21-05-21 23:32:35 card] [INFO] [42mCaptor has capt : 1.0, Result -> 0
+[21-05-21 23:32:35 card] [INFO] [42mCaptor has capt : 676.0, Result -> 2
+[21-05-21 23:32:36 card] [INFO] [42mCaptor has capt : 56.0, Result -> 0
+[21-05-21 23:32:36 card] [INFO] [42mCaptor has capt : 387.0, Result -> 1
+[21-05-21 23:32:36 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 312.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:32:37 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 78.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:37 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 410.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:32:37 card] [INFO] [42mCaptor has capt : 395.0, Result -> 1
+[21-05-21 23:32:38 card] [INFO] [42mCaptor has capt : 391.0, Result -> 1
+[21-05-21 23:32:39 card] [INFO] [42mCaptor has capt : 691.0, Result -> 2
+[21-05-21 23:32:39 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 604.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:39 card] [INFO] [42mCaptor has capt : 15.0, Result -> 0
+[21-05-21 23:32:39 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 687.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:40 card] [INFO] [42mCaptor has capt : 624.0, Result -> 2
+[21-05-21 23:32:40 card] [INFO] [42mCaptor has capt : 337.0, Result -> 1
+[21-05-21 23:32:40 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 551.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:41 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 382.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:32:42 card] [INFO] [42mCaptor has capt : 665.0, Result -> 2
+[21-05-21 23:32:42 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 728.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:43 card] [INFO] [42mCaptor has capt : 570.0, Result -> 2
+[21-05-21 23:32:43 card] [INFO] [42mCaptor has capt : 113.0, Result -> 0
+[21-05-21 23:32:44 card] [INFO] [42mCaptor has capt : 39.0, Result -> 0
+[21-05-21 23:32:44 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 38.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:44 card] [INFO] [42mCaptor has capt : 414.0, Result -> 1
+[21-05-21 23:32:44 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 5.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:44 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 546.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:45 card] [INFO] [42mCaptor has capt : 62.0, Result -> 0
+[21-05-21 23:32:45 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 1.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:45 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 544.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:46 card] [INFO] [42mCaptor has capt : 279.0, Result -> 1
+[21-05-21 23:32:46 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 56.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:46 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 288.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:32:46 card] [INFO] [42mCaptor has capt : 563.0, Result -> 2
+[21-05-21 23:32:47 card] [INFO] [42mCaptor has capt : 499.0, Result -> 1
+[21-05-21 23:32:48 card] [INFO] [42mCaptor has capt : 209.0, Result -> 0
+[21-05-21 23:32:48 card] [INFO] [42mCaptor has capt : 353.0, Result -> 1
+[21-05-21 23:32:48 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 403.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:32:49 card] [INFO] [42mCaptor has capt : 649.0, Result -> 2
+[21-05-21 23:32:49 card] [INFO] [42mCaptor has capt : 77.0, Result -> 0
+[21-05-21 23:32:49 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 15.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:50 card] [INFO] [42mCaptor has capt : 162.0, Result -> 0
+[21-05-21 23:32:50 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 607.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:50 card] [INFO] [42mCaptor has capt : 713.0, Result -> 2
+[21-05-21 23:32:50 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 731.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:51 card] [INFO] [42mCaptor has capt : 673.0, Result -> 2
+[21-05-21 23:32:51 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 387.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:32:51 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 654.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:52 card] [INFO] [42mCaptor has capt : 749.0, Result -> 2
+[21-05-21 23:32:52 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 564.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:52 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 395.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:32:53 card] [INFO] [42mCaptor has capt : 737.0, Result -> 2
+[21-05-21 23:32:53 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 503.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:53 card] [INFO] [42mCaptor has capt : 291.0, Result -> 1
+[21-05-21 23:32:53 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 113.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:53 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 391.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:32:54 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 39.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:55 card] [INFO] [42mCaptor has capt : 601.0, Result -> 2
+[21-05-21 23:32:55 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 62.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:55 card] [INFO] [42mCaptor has capt : 469.0, Result -> 1
+[21-05-21 23:32:55 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 337.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:32:55 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 676.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:56 card] [INFO] [42mCaptor has capt : 278.0, Result -> 1
+[21-05-21 23:32:57 card] [INFO] [42mCaptor has capt : 235.0, Result -> 0
+[21-05-21 23:32:58 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 209.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:58 card] [INFO] [42mCaptor has capt : 371.0, Result -> 1
+[21-05-21 23:32:59 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 691.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:32:59 card] [INFO] [42mCaptor has capt : 719.0, Result -> 2
+[21-05-21 23:32:59 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 77.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:32:59 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 414.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:00 card] [INFO] [42mCaptor has capt : 184.0, Result -> 0
+[21-05-21 23:33:00 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 162.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:00 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 624.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:00 card] [INFO] [42mCaptor has capt : 28.0, Result -> 0
+[21-05-21 23:33:01 card] [INFO] [42mCaptor has capt : 684.0, Result -> 2
+[21-05-21 23:33:01 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 279.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:01 card] [INFO] [42mCaptor has capt : 425.0, Result -> 1
+[21-05-21 23:33:02 card] [INFO] [42mCaptor has capt : 668.0, Result -> 2
+[21-05-21 23:33:02 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 499.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:02 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 665.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:03 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 570.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:03 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 353.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:04 card] [INFO] [42mCaptor has capt : 103.0, Result -> 0
+[21-05-21 23:33:05 card] [INFO] [42mCaptor has capt : 239.0, Result -> 0
+[21-05-21 23:33:06 card] [INFO] [42mCaptor has capt : 201.0, Result -> 0
+[21-05-21 23:33:06 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 563.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:07 card] [INFO] [42mCaptor has capt : 624.0, Result -> 2
+[21-05-21 23:33:07 card] [INFO] [42mCaptor has capt : 463.0, Result -> 1
+[21-05-21 23:33:07 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 235.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:08 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 291.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:09 card] [INFO] [42mCaptor has capt : 252.0, Result -> 1
+[21-05-21 23:33:09 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 649.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:10 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 184.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:10 card] [INFO] [42mCaptor has capt : 189.0, Result -> 0
+[21-05-21 23:33:10 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 28.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:10 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 469.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:10 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 713.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:11 card] [INFO] [42mCaptor has capt : 5.0, Result -> 0
+[21-05-21 23:33:11 card] [INFO] [42mCaptor has capt : 637.0, Result -> 2
+[21-05-21 23:33:11 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 278.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:11 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 673.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:12 card] [INFO] [42mCaptor has capt : 690.0, Result -> 2
+[21-05-21 23:33:12 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 749.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:12 card] [INFO] [42mCaptor has capt : 219.0, Result -> 0
+[21-05-21 23:33:13 card] [INFO] [42mCaptor has capt : 503.0, Result -> 2
+[21-05-21 23:33:13 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 737.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:13 card] [INFO] [42mCaptor has capt : 233.0, Result -> 0
+[21-05-21 23:33:13 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 371.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:14 card] [INFO] [42mCaptor has capt : 490.0, Result -> 1
+[21-05-21 23:33:14 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 103.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:15 card] [INFO] [42mCaptor has capt : 47.0, Result -> 0
+[21-05-21 23:33:15 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 601.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:15 card] [INFO] [42mCaptor has capt : 440.0, Result -> 1
+[21-05-21 23:33:15 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 239.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:16 card] [INFO] [42mCaptor has capt : 559.0, Result -> 2
+[21-05-21 23:33:16 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 201.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:16 card] [INFO] [42mCaptor has capt : 36.0, Result -> 0
+[21-05-21 23:33:16 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 425.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:17 card] [INFO] [42mCaptor has capt : 429.0, Result -> 1
+[21-05-21 23:33:17 card] [INFO] [42mCaptor has capt : 280.0, Result -> 1
+[21-05-21 23:33:18 card] [INFO] [42mCaptor has capt : 248.0, Result -> 0
+[21-05-21 23:33:18 card] [INFO] [42mCaptor has capt : 357.0, Result -> 1
+[21-05-21 23:33:19 card] [INFO] [42mCaptor has capt : 504.0, Result -> 2
+[21-05-21 23:33:19 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 719.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:20 card] [INFO] [42mCaptor has capt : 291.0, Result -> 1
+[21-05-21 23:33:20 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 189.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:21 card] [INFO] [42mCaptor has capt : 486.0, Result -> 1
+[21-05-21 23:33:21 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 5.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:21 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 684.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:21 card] [INFO] [42mCaptor has capt : 334.0, Result -> 1
+[21-05-21 23:33:22 card] [INFO] [42mCaptor has capt : 691.0, Result -> 2
+[21-05-21 23:33:22 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 668.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:22 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 219.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:22 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 463.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:23 card] [INFO] [42mCaptor has capt : 582.0, Result -> 2
+[21-05-21 23:33:23 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 233.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:24 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 252.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:24 card] [INFO] [42mCaptor has capt : 420.0, Result -> 1
+[21-05-21 23:33:25 card] [INFO] [42mCaptor has capt : 528.0, Result -> 2
+[21-05-21 23:33:25 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 47.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:25 card] [INFO] [42mCaptor has capt : 511.0, Result -> 2
+[21-05-21 23:33:26 card] [INFO] [42mCaptor has capt : 495.0, Result -> 1
+[21-05-21 23:33:26 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 36.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:27 card] [INFO] [42mCaptor has capt : 189.0, Result -> 0
+[21-05-21 23:33:27 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 624.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:27 card] [INFO] [42mCaptor has capt : 123.0, Result -> 0
+[21-05-21 23:33:28 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 248.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:29 card] [INFO] [42mCaptor has capt : 673.0, Result -> 2
+[21-05-21 23:33:29 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 490.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:29 card] [INFO] [42mCaptor has capt : 595.0, Result -> 2
+[21-05-21 23:33:30 card] [INFO] [42mCaptor has capt : 418.0, Result -> 1
+[21-05-21 23:33:30 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 440.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:31 card] [INFO] [42mCaptor has capt : 628.0, Result -> 2
+[21-05-21 23:33:31 card] [INFO] [42mCaptor has capt : 276.0, Result -> 1
+[21-05-21 23:33:31 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 637.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:32 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 429.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:32 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 690.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:32 card] [INFO] [42mCaptor has capt : 360.0, Result -> 1
+[21-05-21 23:33:32 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 280.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:33 card] [INFO] [42mCaptor has capt : 349.0, Result -> 1
+[21-05-21 23:33:33 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 503.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:33 card] [INFO] [42mCaptor has capt : 488.0, Result -> 1
+[21-05-21 23:33:33 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 357.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:34 card] [INFO] [42mCaptor has capt : 504.0, Result -> 2
+[21-05-21 23:33:35 card] [INFO] [42mCaptor has capt : 594.0, Result -> 2
+[21-05-21 23:33:35 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 291.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:36 card] [INFO] [42mCaptor has capt : 683.0, Result -> 2
+[21-05-21 23:33:36 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 486.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:36 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 559.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:36 card] [INFO] [42mCaptor has capt : 484.0, Result -> 1
+[21-05-21 23:33:36 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 334.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:37 card] [INFO] [42mCaptor has capt : 429.0, Result -> 1
+[21-05-21 23:33:37 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 189.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:37 card] [INFO] [42mCaptor has capt : 544.0, Result -> 2
+[21-05-21 23:33:37 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 123.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:38 card] [INFO] [42mCaptor has capt : 689.0, Result -> 2
+[21-05-21 23:33:38 card] [INFO] [42mCaptor has capt : 46.0, Result -> 0
+[21-05-21 23:33:39 card] [INFO] [42mCaptor has capt : 673.0, Result -> 2
+[21-05-21 23:33:39 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 420.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:39 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 504.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:40 card] [INFO] [42mCaptor has capt : 244.0, Result -> 0
+[21-05-21 23:33:40 card] [INFO] [42mCaptor has capt : 666.0, Result -> 2
+[21-05-21 23:33:41 card] [INFO] [42mCaptor has capt : 580.0, Result -> 2
+[21-05-21 23:33:41 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 495.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:42 card] [INFO] [42mCaptor has capt : 526.0, Result -> 2
+[21-05-21 23:33:42 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 691.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:43 card] [INFO] [42mCaptor has capt : 51.0, Result -> 0
+[21-05-21 23:33:43 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 582.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:43 card] [INFO] [42mCaptor has capt : 460.0, Result -> 1
+[21-05-21 23:33:44 card] [INFO] [42mCaptor has capt : 328.0, Result -> 1
+[21-05-21 23:33:44 card] [INFO] [42mCaptor has capt : 661.0, Result -> 2
+[21-05-21 23:33:45 card] [INFO] [42mCaptor has capt : 150.0, Result -> 0
+[21-05-21 23:33:45 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 528.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:45 card] [INFO] [42mCaptor has capt : 173.0, Result -> 0
+[21-05-21 23:33:45 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 418.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:45 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 511.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:46 card] [INFO] [42mCaptor has capt : 55.0, Result -> 0
+[21-05-21 23:33:46 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 276.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:47 card] [INFO] [42mCaptor has capt : 576.0, Result -> 2
+[21-05-21 23:33:47 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 360.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:48 card] [INFO] [42mCaptor has capt : 364.0, Result -> 1
+[21-05-21 23:33:48 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 349.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:48 card] [INFO] [42mCaptor has capt : 64.0, Result -> 0
+[21-05-21 23:33:48 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 46.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:48 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 488.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:49 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 673.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:49 card] [INFO] [42mCaptor has capt : 610.0, Result -> 2
+[21-05-21 23:33:49 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 595.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:50 card] [INFO] [42mCaptor has capt : 393.0, Result -> 1
+[21-05-21 23:33:50 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 244.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:51 card] [INFO] [42mCaptor has capt : 186.0, Result -> 0
+[21-05-21 23:33:51 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 628.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:51 card] [INFO] [42mCaptor has capt : 357.0, Result -> 1
+[21-05-21 23:33:51 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 484.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:52 card] [INFO] [42mCaptor has capt : 395.0, Result -> 1
+[21-05-21 23:33:52 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 429.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:53 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 51.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:53 card] [INFO] [42mCaptor has capt : 350.0, Result -> 1
+[21-05-21 23:33:54 card] [INFO] [42mCaptor has capt : 287.0, Result -> 1
+[21-05-21 23:33:54 card] [INFO] [42mCaptor has capt : 152.0, Result -> 0
+[21-05-21 23:33:54 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 504.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:55 card] [INFO] [42mCaptor has capt : 394.0, Result -> 1
+[21-05-21 23:33:55 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 150.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:55 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 594.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:55 card] [INFO] [42mCaptor has capt : 479.0, Result -> 1
+[21-05-21 23:33:55 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 173.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:56 card] [INFO] [42mCaptor has capt : 430.0, Result -> 1
+[21-05-21 23:33:56 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 55.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:56 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 683.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:56 card] [INFO] [42mCaptor has capt : 467.0, Result -> 1
+[21-05-21 23:33:57 card] [INFO] [42mCaptor has capt : 300.0, Result -> 1
+[21-05-21 23:33:57 card] [INFO] [42mCaptor has capt : 172.0, Result -> 0
+[21-05-21 23:33:57 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 544.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:58 card] [INFO] [42mCaptor has capt : 171.0, Result -> 0
+[21-05-21 23:33:58 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 689.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:33:58 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 64.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:33:58 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 460.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:59 card] [INFO] [42mCaptor has capt : 473.0, Result -> 1
+[21-05-21 23:33:59 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 328.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:33:59 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 673.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:00 card] [INFO] [42mCaptor has capt : 139.0, Result -> 0
+[21-05-21 23:34:00 card] [INFO] [42mCaptor has capt : 218.0, Result -> 0
+[21-05-21 23:34:00 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 666.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:01 card] [INFO] [42mCaptor has capt : 171.0, Result -> 0
+[21-05-21 23:34:01 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 186.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:01 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 580.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:02 card] [INFO] [42mCaptor has capt : 72.0, Result -> 0
+[21-05-21 23:34:02 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 526.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:02 card] [INFO] [42mCaptor has capt : 328.0, Result -> 1
+[21-05-21 23:34:03 card] [INFO] [42mCaptor has capt : 414.0, Result -> 1
+[21-05-21 23:34:03 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 364.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:03 card] [INFO] [42mCaptor has capt : 174.0, Result -> 0
+[21-05-21 23:34:04 card] [INFO] [42mCaptor has capt : 530.0, Result -> 2
+[21-05-21 23:34:04 card] [INFO] [42mCaptor has capt : 130.0, Result -> 0
+[21-05-21 23:34:04 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 152.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:04 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 661.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:05 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 393.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:05 card] [INFO] [42mCaptor has capt : 177.0, Result -> 0
+[21-05-21 23:34:06 card] [INFO] [42mCaptor has capt : 480.0, Result -> 1
+[21-05-21 23:34:06 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 357.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:07 card] [INFO] [42mCaptor has capt : 35.0, Result -> 0
+[21-05-21 23:34:07 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 395.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:07 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 576.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:07 card] [INFO] [42mCaptor has capt : 508.0, Result -> 2
+[21-05-21 23:34:07 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 172.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:08 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 171.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:08 card] [INFO] [42mCaptor has capt : 360.0, Result -> 1
+[21-05-21 23:34:08 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 350.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:09 card] [INFO] [42mCaptor has capt : 204.0, Result -> 0
+[21-05-21 23:34:09 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 287.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:09 card] [INFO] [42mCaptor has capt : 611.0, Result -> 2
+[21-05-21 23:34:09 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 610.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:10 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 139.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:10 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 394.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:10 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 218.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:10 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 479.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:11 card] [INFO] [42mCaptor has capt : 262.0, Result -> 1
+[21-05-21 23:34:11 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 171.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:11 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 430.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:11 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 467.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:12 card] [INFO] [42mCaptor has capt : 405.0, Result -> 1
+[21-05-21 23:34:12 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 72.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:12 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 300.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:12 card] [INFO] [42mCaptor has capt : 691.0, Result -> 2
+[21-05-21 23:34:13 card] [INFO] [42mCaptor has capt : 518.0, Result -> 2
+[21-05-21 23:34:13 card] [INFO] [42mCaptor has capt : 82.0, Result -> 0
+[21-05-21 23:34:13 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 174.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:14 card] [INFO] [42mCaptor has capt : 435.0, Result -> 1
+[21-05-21 23:34:14 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 473.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:14 card] [INFO] [42mCaptor has capt : 4.0, Result -> 0
+[21-05-21 23:34:14 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 130.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:15 card] [INFO] [42mCaptor has capt : 271.0, Result -> 1
+[21-05-21 23:34:15 card] [INFO] [42mCaptor has capt : 531.0, Result -> 2
+[21-05-21 23:34:15 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 177.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:16 card] [INFO] [42mCaptor has capt : 429.0, Result -> 1
+[21-05-21 23:34:16 card] [INFO] [42mCaptor has capt : 744.0, Result -> 2
+[21-05-21 23:34:17 card] [INFO] [42mCaptor has capt : 288.0, Result -> 1
+[21-05-21 23:34:17 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 35.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:17 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 328.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:18 card] [INFO] [42mCaptor has capt : 2.0, Result -> 0
+[21-05-21 23:34:18 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 414.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:18 card] [INFO] [42mCaptor has capt : 388.0, Result -> 1
+[21-05-21 23:34:19 card] [INFO] [42mCaptor has capt : 727.0, Result -> 2
+[21-05-21 23:34:19 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 204.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:19 card] [INFO] [42mCaptor has capt : 55.0, Result -> 0
+[21-05-21 23:34:20 card] [INFO] [42mCaptor has capt : 224.0, Result -> 0
+[21-05-21 23:34:20 card] [INFO] [42mCaptor has capt : 675.0, Result -> 2
+[21-05-21 23:34:21 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 480.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:21 card] [INFO] [42mCaptor has capt : 181.0, Result -> 0
+[21-05-21 23:34:22 card] [INFO] [42mCaptor has capt : 349.0, Result -> 1
+[21-05-21 23:34:22 card] [INFO] [42mCaptor has capt : 129.0, Result -> 0
+[21-05-21 23:34:23 card] [INFO] [42mCaptor has capt : 172.0, Result -> 0
+[21-05-21 23:34:23 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 82.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:23 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 360.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:24 card] [INFO] [42mCaptor has capt : 734.0, Result -> 2
+[21-05-21 23:34:24 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 530.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:24 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 4.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:25 card] [INFO] [42mCaptor has capt : 14.0, Result -> 0
+[21-05-21 23:34:26 card] [INFO] [42mCaptor has capt : 485.0, Result -> 1
+[21-05-21 23:34:26 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 262.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:26 card] [INFO] [42mCaptor has capt : 319.0, Result -> 1
+[21-05-21 23:34:27 card] [INFO] [42mCaptor has capt : 729.0, Result -> 2
+[21-05-21 23:34:27 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 405.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:27 card] [INFO] [42mCaptor has capt : 432.0, Result -> 1
+[21-05-21 23:34:27 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 508.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:28 card] [INFO] [42mCaptor has capt : 251.0, Result -> 1
+[21-05-21 23:34:28 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 2.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:28 card] [INFO] [42mCaptor has capt : 476.0, Result -> 1
+[21-05-21 23:34:29 card] [INFO] [42mCaptor has capt : 613.0, Result -> 2
+[21-05-21 23:34:29 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 435.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:29 card] [INFO] [42mCaptor has capt : 120.0, Result -> 0
+[21-05-21 23:34:29 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 55.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:29 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 611.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:30 card] [INFO] [42mCaptor has capt : 461.0, Result -> 1
+[21-05-21 23:34:30 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 224.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:30 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 271.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:30 card] [INFO] [42mCaptor has capt : 508.0, Result -> 2
+[21-05-21 23:34:31 card] [INFO] [42mCaptor has capt : 377.0, Result -> 1
+[21-05-21 23:34:31 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 429.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:31 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 181.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:32 card] [INFO] [42mCaptor has capt : 42.0, Result -> 0
+[21-05-21 23:34:32 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 288.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:32 card] [INFO] [42mCaptor has capt : 472.0, Result -> 1
+[21-05-21 23:34:32 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 129.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:32 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 691.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:33 card] [INFO] [42mCaptor has capt : 230.0, Result -> 0
+[21-05-21 23:34:33 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 172.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:33 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 518.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:33 card] [INFO] [42mCaptor has capt : 507.0, Result -> 2
+[21-05-21 23:34:33 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 388.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:34 card] [INFO] [42mCaptor has capt : 334.0, Result -> 1
+[21-05-21 23:34:34 card] [INFO] [42mCaptor has capt : 678.0, Result -> 2
+[21-05-21 23:34:35 card] [INFO] [42mCaptor has capt : 175.0, Result -> 0
+[21-05-21 23:34:35 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 14.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:35 card] [INFO] [42mCaptor has capt : 125.0, Result -> 0
+[21-05-21 23:34:35 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 531.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:36 card] [INFO] [42mCaptor has capt : 292.0, Result -> 1
+[21-05-21 23:34:36 card] [INFO] [42mCaptor has capt : 35.0, Result -> 0
+[21-05-21 23:34:36 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 744.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:37 card] [INFO] [42mCaptor has capt : 561.0, Result -> 2
+[21-05-21 23:34:37 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 349.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:37 card] [INFO] [42mCaptor has capt : 165.0, Result -> 0
+[21-05-21 23:34:38 card] [INFO] [42mCaptor has capt : 445.0, Result -> 1
+[21-05-21 23:34:39 card] [INFO] [42mCaptor has capt : 133.0, Result -> 0
+[21-05-21 23:34:39 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 727.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:39 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 120.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:40 card] [INFO] [42mCaptor has capt : 86.0, Result -> 0
+[21-05-21 23:34:40 card] [INFO] [42mCaptor has capt : 679.0, Result -> 2
+[21-05-21 23:34:40 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 675.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:41 card] [INFO] [42mCaptor has capt : 332.0, Result -> 1
+[21-05-21 23:34:41 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 485.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:41 card] [INFO] [42mCaptor has capt : 423.0, Result -> 1
+[21-05-21 23:34:41 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 319.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:42 card] [INFO] [42mCaptor has capt : 553.0, Result -> 2
+[21-05-21 23:34:42 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 42.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:42 card] [INFO] [42mCaptor has capt : 170.0, Result -> 0
+[21-05-21 23:34:42 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 432.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:43 card] [INFO] [42mCaptor has capt : 516.0, Result -> 2
+[21-05-21 23:34:43 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 230.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:43 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 251.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:43 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 476.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:44 card] [INFO] [42mCaptor has capt : 175.0, Result -> 0
+[21-05-21 23:34:44 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 734.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:45 card] [INFO] [42mCaptor has capt : 413.0, Result -> 1
+[21-05-21 23:34:45 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 175.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:45 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 461.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:45 card] [INFO] [42mCaptor has capt : 495.0, Result -> 1
+[21-05-21 23:34:45 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 125.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:46 card] [INFO] [42mCaptor has capt : 177.0, Result -> 0
+[21-05-21 23:34:46 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 377.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:46 card] [INFO] [42mCaptor has capt : 286.0, Result -> 1
+[21-05-21 23:34:46 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 35.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:47 card] [INFO] [42mCaptor has capt : 606.0, Result -> 2
+[21-05-21 23:34:47 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 729.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:47 card] [INFO] [42mCaptor has capt : 705.0, Result -> 2
+[21-05-21 23:34:47 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 165.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:47 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 472.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:48 card] [INFO] [42mCaptor has capt : 655.0, Result -> 2
+[21-05-21 23:34:48 card] [INFO] [42mCaptor has capt : 41.0, Result -> 0
+[21-05-21 23:34:49 card] [INFO] [42mCaptor has capt : 111.0, Result -> 0
+[21-05-21 23:34:49 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 133.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:49 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 334.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:49 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 613.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:49 card] [INFO] [42mCaptor has capt : 313.0, Result -> 1
+[21-05-21 23:34:50 card] [INFO] [42mCaptor has capt : 714.0, Result -> 2
+[21-05-21 23:34:50 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 86.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:50 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 508.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:51 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 292.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:51 card] [INFO] [42mCaptor has capt : 205.0, Result -> 0
+[21-05-21 23:34:52 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 170.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:53 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 445.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:53 card] [INFO] [42mCaptor has capt : 303.0, Result -> 1
+[21-05-21 23:34:53 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 507.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:54 card] [INFO] [42mCaptor has capt : 510.0, Result -> 2
+[21-05-21 23:34:54 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 175.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:54 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 678.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:56 card] [INFO] [42mCaptor has capt : 377.0, Result -> 1
+[21-05-21 23:34:56 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 177.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:56 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 332.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:56 card] [INFO] [42mCaptor has capt : 547.0, Result -> 2
+[21-05-21 23:34:56 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 423.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:34:57 card] [INFO] [42mCaptor has capt : 687.0, Result -> 2
+[21-05-21 23:34:57 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 561.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:34:58 card] [INFO] [42mCaptor has capt : 465.0, Result -> 1
+[21-05-21 23:34:58 card] [INFO] [42mCaptor has capt : 673.0, Result -> 2
+[21-05-21 23:34:58 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 41.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:59 card] [INFO] [42mCaptor has capt : 574.0, Result -> 2
+[21-05-21 23:34:59 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 111.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:34:59 card] [INFO] [42mCaptor has capt : 482.0, Result -> 1
+[21-05-21 23:35:00 card] [INFO] [42mCaptor has capt : 727.0, Result -> 2
+[21-05-21 23:35:00 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 413.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:35:00 card] [INFO] [42mCaptor has capt : 277.0, Result -> 1
+[21-05-21 23:35:00 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 495.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:35:00 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 679.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:01 card] [INFO] [42mCaptor has capt : 173.0, Result -> 0
+[21-05-21 23:35:01 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 205.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:35:01 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 286.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:35:02 card] [INFO] [42mCaptor has capt : 735.0, Result -> 2
+[21-05-21 23:35:02 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 553.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:02 card] [INFO] [42mCaptor has capt : 542.0, Result -> 2
+[21-05-21 23:35:03 card] [INFO] [42mCaptor has capt : 510.0, Result -> 2
+[21-05-21 23:35:03 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 516.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:04 card] [INFO] [42mCaptor has capt : 498.0, Result -> 1
+[21-05-21 23:35:04 card] [INFO] [42mCaptor has capt : 210.0, Result -> 0
+[21-05-21 23:35:04 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 313.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:35:05 card] [INFO] [42mCaptor has capt : 603.0, Result -> 2
+[21-05-21 23:35:05 card] [INFO] [42mCaptor has capt : 79.0, Result -> 0
+[21-05-21 23:35:07 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 606.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:07 card] [INFO] [42mCaptor has capt : 612.0, Result -> 2
+[21-05-21 23:35:07 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 705.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:08 card] [INFO] [42mCaptor has capt : 225.0, Result -> 0
+[21-05-21 23:35:08 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 655.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:08 card] [INFO] [42mCaptor has capt : 364.0, Result -> 1
+[21-05-21 23:35:08 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 303.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:35:09 card] [INFO] [42mCaptor has capt : 481.0, Result -> 1
+[21-05-21 23:35:09 card] [INFO] [42mCaptor has capt : 544.0, Result -> 2
+[21-05-21 23:35:10 card] [INFO] [42mCaptor has capt : 178.0, Result -> 0
+[21-05-21 23:35:10 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 714.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:10 card] [INFO] [42mCaptor has capt : 285.0, Result -> 1
+[21-05-21 23:35:11 card] [INFO] [42mCaptor has capt : 585.0, Result -> 2
+[21-05-21 23:35:11 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 173.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:35:11 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 377.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:35:11 card] [INFO] [42mCaptor has capt : 715.0, Result -> 2
+[21-05-21 23:35:12 card] [INFO] [42mCaptor has capt : 250.0, Result -> 0
+[21-05-21 23:35:12 card] [INFO] [42mCaptor has capt : 316.0, Result -> 1
+[21-05-21 23:35:13 card] [INFO] [42mCaptor has capt : 698.0, Result -> 2
+[21-05-21 23:35:13 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 465.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:35:14 card] [INFO] [42mCaptor has capt : 257.0, Result -> 1
+[21-05-21 23:35:14 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 510.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:14 card] [INFO] [42mCaptor has capt : 699.0, Result -> 2
+[21-05-21 23:35:14 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 210.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:35:14 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 482.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:35:15 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 79.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:35:15 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 277.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:35:16 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 547.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:17 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 687.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:18 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 225.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:35:18 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 673.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:19 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 498.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:35:19 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 574.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:20 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 178.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:35:20 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 727.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:22 card] [INFO] Pusher [35m[4mpusher.1[24m[37m has push an item :
+[34mItem : 250.0
+[36mFrom : conveyor
+[34mTo : container.1
+[21-05-21 23:35:22 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 735.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:22 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 542.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:23 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 510.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:23 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 364.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:35:24 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 481.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:35:25 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 603.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:25 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 285.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:35:27 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 316.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:35:27 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 612.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:29 card] [INFO] Pusher [35m[4mpusher.2[24m[37m has push an item :
+[34mItem : 257.0
+[36mFrom : conveyor
+[34mTo : container.2
+[21-05-21 23:35:29 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 544.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:31 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 585.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:31 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 715.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:33 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 698.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:35:34 card] [INFO] Pusher [35m[4mpusher.3[24m[37m has push an item :
+[34mItem : 699.0
+[36mFrom : conveyor
+[34mTo : container.3
+[21-05-21 23:36:01 card] [INFO] [43m################
+[21-05-21 23:36:01 card] [INFO] [32mSorting task is finish !
+[21-05-21 23:36:01 card] [INFO] [43mFirst container filter content :
+[m[34m[44.0, 122.0, 124.0, 183.0, 168.0, 133.0, 33.0, 217.0, 210.0, 141.0, 195.0, 230.0, 91.0, 93.0, 58.0, 216.0, 5.0, 175.0, 240.0, 196.0, 25.0, 96.0, 137.0, 236.0, 210.0, 59.0, 59.0, 7.0, 152.0, 207.0, 188.0, 201.0, 86.0, 250.0, 119.0, 107.0, 125.0, 50.0, 65.0, 70.0, 223.0, 158.0, 242.0, 232.0, 28.0, 29.0, 227.0, 134.0, 248.0, 243.0, 221.0, 238.0, 82.0, 141.0, 78.0, 38.0, 5.0, 1.0, 56.0, 15.0, 113.0, 39.0, 62.0, 209.0, 77.0, 162.0, 235.0, 184.0, 28.0, 103.0, 239.0, 201.0, 189.0, 5.0, 219.0, 233.0, 47.0, 36.0, 248.0, 189.0, 123.0, 46.0, 244.0, 51.0, 150.0, 173.0, 55.0, 64.0, 186.0, 152.0, 172.0, 171.0, 139.0, 218.0, 171.0, 72.0, 174.0, 130.0, 177.0, 35.0, 204.0, 82.0, 4.0, 2.0, 55.0, 224.0, 181.0, 129.0, 172.0, 14.0, 120.0, 42.0, 230.0, 175.0, 125.0, 35.0, 165.0, 133.0, 86.0, 170.0, 175.0, 177.0, 41.0, 111.0, 205.0, 173.0, 210.0, 79.0, 225.0, 178.0, 250.0]
+[21-05-21 23:36:01 card] [INFO] [43mSecond container filter content :
+[m[36m[391.0, 461.0, 328.0, 252.0, 437.0, 449.0, 393.0, 429.0, 325.0, 266.0, 259.0, 434.0, 322.0, 442.0, 399.0, 430.0, 447.0, 373.0, 437.0, 313.0, 439.0, 359.0, 292.0, 291.0, 462.0, 403.0, 328.0, 312.0, 410.0, 382.0, 288.0, 403.0, 387.0, 395.0, 391.0, 337.0, 414.0, 279.0, 499.0, 353.0, 291.0, 469.0, 278.0, 371.0, 425.0, 463.0, 252.0, 490.0, 440.0, 429.0, 280.0, 357.0, 291.0, 486.0, 334.0, 420.0, 495.0, 418.0, 276.0, 360.0, 349.0, 488.0, 484.0, 429.0, 460.0, 328.0, 364.0, 393.0, 357.0, 395.0, 350.0, 287.0, 394.0, 479.0, 430.0, 467.0, 300.0, 473.0, 328.0, 414.0, 480.0, 360.0, 262.0, 405.0, 435.0, 271.0, 429.0, 288.0, 388.0, 349.0, 485.0, 319.0, 432.0, 251.0, 476.0, 461.0, 377.0, 472.0, 334.0, 292.0, 445.0, 332.0, 423.0, 413.0, 495.0, 286.0, 313.0, 303.0, 377.0, 465.0, 482.0, 277.0, 498.0, 364.0, 481.0, 285.0, 316.0, 257.0]
+[21-05-21 23:36:01 card] [INFO] [43mThird container filter content :
+[m[34m[680.0, 695.0, 723.0, 639.0, 593.0, 669.0, 725.0, 651.0, 736.0, 684.0, 506.0, 662.0, 692.0, 545.0, 716.0, 604.0, 639.0, 687.0, 710.0, 682.0, 699.0, 726.0, 634.0, 669.0, 516.0, 602.0, 640.0, 673.0, 628.0, 601.0, 637.0, 503.0, 633.0, 571.0, 552.0, 512.0, 604.0, 687.0, 551.0, 728.0, 546.0, 544.0, 607.0, 731.0, 654.0, 564.0, 503.0, 676.0, 691.0, 624.0, 665.0, 570.0, 563.0, 649.0, 713.0, 673.0, 749.0, 737.0, 601.0, 719.0, 684.0, 668.0, 624.0, 637.0, 690.0, 503.0, 559.0, 504.0, 691.0, 582.0, 528.0, 511.0, 673.0, 595.0, 628.0, 504.0, 594.0, 683.0, 544.0, 689.0, 673.0, 666.0, 580.0, 526.0, 661.0, 576.0, 610.0, 530.0, 508.0, 611.0, 691.0, 518.0, 531.0, 744.0, 727.0, 675.0, 734.0, 729.0, 613.0, 508.0, 507.0, 678.0, 561.0, 679.0, 553.0, 516.0, 606.0, 705.0, 655.0, 714.0, 510.0, 547.0, 687.0, 673.0, 574.0, 727.0, 735.0, 542.0, 510.0, 603.0, 612.0, 544.0, 585.0, 715.0, 698.0, 699.0]
+[21-05-21 23:36:01 card] [INFO] [41mNon filtered items container :
+[m[35m[990.0, 970.0, 784.0, 945.0, 934.0, 841.0, 875.0, 789.0, 956.0, 988.0, 962.0, 871.0, 751.0, 965.0, 911.0, 987.0, 777.0, 980.0, 801.0, 768.0, 830.0, 900.0, 831.0, 866.0, 796.0, 978.0, 764.0, 753.0, 989.0, 944.0, 890.0, 845.0, 965.0, 777.0, 766.0, 963.0, 816.0, 966.0, 860.0, 831.0, 901.0, 946.0, 909.0, 845.0, 780.0, 915.0, 986.0, 851.0, 784.0, 964.0, 866.0, 906.0, 787.0, 906.0, 994.0, 901.0, 791.0, 835.0, 819.0, 823.0, 879.0, 944.0, 972.0, 805.0, 852.0, 792.0, 806.0, 769.0, 780.0, 958.0, 976.0, 927.0, 895.0, 972.0, 920.0, 891.0, 970.0, 787.0, 828.0, 904.0, 999.0, 923.0, 928.0, 957.0, 853.0, 768.0, 998.0, 944.0, 892.0, 858.0, 841.0, 880.0, 938.0, 952.0, 830.0, 848.0, 792.0, 819.0, 909.0, 809.0, 951.0, 863.0, 949.0, 971.0, 790.0, 881.0, 817.0, 904.0, 851.0, 787.0, 877.0, 809.0, 790.0, 787.0, 761.0, 874.0, 949.0, 840.0, 752.0, 982.0, 788.0, 793.0, 878.0, 818.0, 984.0]
+[21-05-21 23:36:01 card] [INFO] [41m[6mCard will be stop in 5 seconds !
+[21-05-21 23:36:06 card] [OFF] card logger is now closed

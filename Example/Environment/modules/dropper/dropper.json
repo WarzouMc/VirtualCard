@@ -1,0 +1,13 @@
+{
+  "module_name": "dropper",
+  "stream_type": 2,
+  "packets":{
+    "in": {
+      "./modules/dropper/queue/queue.json": "queue"
+    },
+    "out": {
+      "./modules/dropper/queue/queue.json": "queue",
+      "./modules/dropper/stats/stats.json": "stats"
+    }
+  }
+}

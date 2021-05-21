@@ -1,0 +1,63 @@
+{
+  "module_name": "conveyor",
+  "stream_type": 2,
+  "packets": {
+    "out": {
+      "./modules/conveyor/stats/stats.json": "stats",
+      "./modules/conveyor/conveyorview.json": "view",
+      "link": {
+        "section_name": "link",
+        "modules": [
+          {
+            "module": "dropper",
+            "face": 0,
+            "position": 0
+          },
+          {
+            "module": "container",
+            "face": 1,
+            "position": 0
+          },
+          {
+            "module": "captor",
+            "face": 2,
+            "position": 10
+          },
+          {
+            "module": "pusher.1",
+            "face": 2,
+            "position": 30
+          },
+          {
+            "module": "pusher.2",
+            "face": 2,
+            "position": 40
+          },
+          {
+            "module": "pusher.3",
+            "face": 2,
+            "position": 50
+          },
+          {
+            "module": "container.1",
+            "face": 3,
+            "position": 30
+          },
+          {
+            "module": "container.2",
+            "face": 3,
+            "position": 40
+          },
+          {
+            "module": "container.3",
+            "face": 3,
+            "position": 50
+          }
+        ]
+      }
+    },
+    "in": {
+      "./modules/conveyor/conveyorview.json": "view"
+    }
+  }
+}

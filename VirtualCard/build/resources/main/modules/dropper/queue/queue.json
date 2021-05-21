@@ -1,0 +1,8 @@
+{
+  "section_name": "queue",
+  "queue": [],
+  "max_queue": 201,
+  "inject": "",
+  "eject": "conveyor",
+  "empty_slot": 201
+}

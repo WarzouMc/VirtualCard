@@ -1,0 +1,50 @@
+{
+  "commands": [
+    {
+      "name": "stop",
+      "description": "Stop the card",
+      "help": "/stop to stop the card",
+      "alias": [
+        "interrupt", "kill", "end"
+      ]
+    },
+    {
+      "name": "say",
+      "description": "Say something in the terminal",
+      "help": "/say [text]"
+    },
+    {
+      "name": "help",
+      "description": "Show the commands list",
+      "help": "/help (command)",
+      "alias": [
+        "?", "h"
+      ]
+    },
+    {
+      "name": "tick",
+      "description": "Show tick information",
+      "help": "/tick",
+      "alias": [
+        "lag"
+      ]
+    },
+    {
+      "name": "packet",
+      "description": "Send a packet",
+      "help": "/packet {list ; [in|out]} [packet name] (value to write)"
+    },
+    {
+      "name": "plugins",
+      "description": "View the plugin list",
+      "help": "/plugins",
+      "alias": ["pl"]
+    },
+    {
+      "name": "pluginhelp",
+      "description": "Show the commands list from a plugin",
+      "help": "/pluginhelp [plugin name]",
+      "alias": ["plhelp", "plh", "pluginh", "pl?", "plugin?", "?pl"]
+    }
+  ]
+}

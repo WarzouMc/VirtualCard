@@ -1,0 +1,16 @@
+{
+  "module_name": "clock",
+  "stream_type": 1,
+  "packets": {
+    "out": {
+      "section_name": "test",
+      "instance": "system.clock",
+      "now.ticks": "system.clock:now.ticks",
+      "now.seconds": "system.clock:now.seconds",
+      "now.minutes": "system.clock:now.minutes",
+      "now.hours": "system.clock:now.hours",
+      "instant": "system.clock:now.instant",
+      "okok.ahh": 92782587468786278
+    }
+  }
+}

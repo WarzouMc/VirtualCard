@@ -1,0 +1,12 @@
+{
+  "module_name": "container.1",
+  "stream_type": 2,
+  "packets":{
+    "in": {
+      "./modules/container1/content/content.json": "content"
+    },
+    "out": {
+      "./modules/container1/content/content.json": "content"
+    }
+  }
+}

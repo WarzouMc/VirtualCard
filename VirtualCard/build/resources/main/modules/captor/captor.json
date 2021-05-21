@@ -1,0 +1,18 @@
+{
+  "module_name": "captor",
+  "stream_type": 2,
+  "packets":{
+    "out": {
+      "./modules/captor/capturing.json": "capt",
+      "stat": {
+        "section_name": "stat",
+        "link": "conveyor",
+        "check_type": "min",
+        "check_constants": [250, 500, 750]
+      }
+    },
+    "in": {
+      "./modules/captor/capturing.json": "capt"
+    }
+  }
+}
